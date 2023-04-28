@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87C4CB"
-    android:backgroundTint="#87C4CB"
+    android:background="@color/roxo2"
+    android:backgroundTint="@color/roxo2"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,6 +16,7 @@
         android:background="@drawable/rounded_layout"
         android:backgroundTint="?android:backgroundTint"
         android:orientation="vertical"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:contentDescription="uma bomba de gasolina ilustrando o app"
-            android:paddingVertical="10dp"
+            android:paddingVertical="20dp"
+            android:paddingTop="50px"
             android:textAlignment="center"
             app:srcCompat="@mipmap/ic_launcher_foreground" />
 
@@ -39,12 +41,12 @@
             android:layout_marginBottom="10dp"
             android:text="Gasolina ou Álcool?"
             android:textAlignment="center"
-            android:textColor="#87C4CB"
+            android:textColor="@color/roxo2"
             android:textSize="25sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/edAlcool"
+            android:id="@+id/edGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
@@ -53,11 +55,12 @@
             android:inputType="numberDecimal" />
 
         <EditText
-            android:id="@+id/edGasolina"
+            android:id="@+id/edAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
             android:ems="10"
-            android:hint="alcool"
+            android:hint="Preço do Álcool"
             android:inputType="numberDecimal" />
 
         <Switch
@@ -66,7 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginHorizontal="30dp"
-            android:text="75%" />
+            android:text="75%"
+            android:textColorHighlight="@color/roxo1"
+            android:textColorLink="@color/roxo1" />
 
         <Button
             android:id="@+id/btCalcular"
@@ -74,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
-            android:backgroundTint="#CB584C"
+            android:backgroundTint="@color/verde1"
             android:text="Calcular" />
 
     </LinearLayout>
