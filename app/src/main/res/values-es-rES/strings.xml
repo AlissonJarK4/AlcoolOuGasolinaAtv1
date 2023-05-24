@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qual_combustivel">Qual combustivel?</string>
+    <string name="gasolina_ou_lcool">Gasolina o Alcohol?</string>
+    <string name="pre_o_da_gasolina">Precio de la gasolina</string>
+    <string name="pre_o_do_lcool">Precio de lo alcohol</string>
+    <string name="calcular">Calcular</string>
+    <string name="uma_bomba_de_gasolina_ilustrando_o_app">una bomba de gasolina</string>
+</resources>

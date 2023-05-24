@@ -89,7 +89,7 @@
             android:layout_marginVertical="20dp"
             android:layout_weight="1"
             android:backgroundTint="@color/verde1"
-            android:text="@string/calcular" />
+            android:text="@string/calcular"  />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

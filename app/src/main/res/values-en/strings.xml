@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qual_combustivel">Which one?</string>
+    <string name="gasolina_ou_lcool">Gas or Alcohol?</string>
+    <string name="pre_o_da_gasolina">Gas price</string>
+    <string name="pre_o_do_lcool">Alcohol price</string>
+    <string name="calcular">Calculate</string>
+    <string name="uma_bomba_de_gasolina_ilustrando_o_app">a gas bomb ilustrating the app</string>
+</resources>

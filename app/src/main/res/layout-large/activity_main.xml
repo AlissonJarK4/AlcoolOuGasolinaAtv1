@@ -27,11 +27,11 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="314dp"
-            android:layout_height="76dp"
+            android:layout_width="754dp"
+            android:layout_height="590dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:contentDescription="uma bomba de gasolina ilustrando o app"
+            android:contentDescription="@string/uma_bomba_de_gasolina_ilustrando_o_app"
             android:paddingVertical="20dp"
             android:paddingTop="50px"
             android:textAlignment="center"
@@ -40,14 +40,14 @@
         <TextView
             android:id="@+id/titulo"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="205dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
             android:text="@string/gasolina_ou_lcool"
             android:textAlignment="center"
             android:textColor="@color/roxo2"
-            android:textSize="25sp"
+            android:textSize="60sp"
             android:textStyle="bold" />
 
         <EditText
@@ -58,7 +58,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/pre_o_da_gasolina"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:textSize="60sp"/>
 
         <EditText
             android:id="@+id/edAlcool"
@@ -68,18 +69,20 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/pre_o_do_lcool"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:textSize="60sp" />
 
         <Switch
             android:id="@+id/swPercentual"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginHorizontal="30dp"
             android:layout_weight="1"
             android:text="75%"
             android:textColorHighlight="@color/roxo1"
-            android:textColorLink="@color/roxo1" />
+            android:textColorLink="@color/roxo1"
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/btCalcular"
@@ -89,7 +92,8 @@
             android:layout_marginVertical="20dp"
             android:layout_weight="1"
             android:backgroundTint="@color/verde1"
-            android:text="@string/calcular" />
+            android:text="@string/calcular"
+            android:textSize="60sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

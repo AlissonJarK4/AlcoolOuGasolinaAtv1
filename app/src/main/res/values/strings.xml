@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Com qual combustível?</string>
+    <string name="qual_combustivel">Com qual combustível?</string>
+    <string name="gasolina_ou_lcool">Gasolina ou Álcool?</string>
+    <string name="pre_o_da_gasolina">Preço da gasolina</string>
+    <string name="pre_o_do_lcool">Preço do Álcool</string>
+    <string name="calcular">Calcular</string>
+    <string name="uma_bomba_de_gasolina_ilustrando_o_app">uma bomba de gasolina ilustrando o app</string>
 </resources>
